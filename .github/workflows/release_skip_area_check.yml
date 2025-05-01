@@ -13,7 +13,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
         with:
-          ref: master
+          ref: skip_area_check
           fetch-depth: 0
           submodules: 'true'
 
