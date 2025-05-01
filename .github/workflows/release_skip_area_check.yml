@@ -1,4 +1,4 @@
-name: Release Build
+name: Manaul Build
 
 on:
   workflow_dispatch: # 添加了手动触发支持   
