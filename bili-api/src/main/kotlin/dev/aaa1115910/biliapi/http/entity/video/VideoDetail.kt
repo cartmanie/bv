@@ -31,7 +31,7 @@ data class VideoDetail(
     @SerialName("query_tags")
     val queryTags: JsonObject? = null,
     @SerialName("is_old_user")
-    val isOldUser: Boolean
+    val is_old_user: Boolean = false
 ) {
     @Serializable
     data class HotShare(
